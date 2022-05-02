@@ -8,7 +8,10 @@ function App() {
   const [title, setTitle] = useState("");
   const [isReady, setReady] = useState(false);
   useEffect(() => {
-    fetch("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY")
+    const apiKey = `f3TvdRxWaet7RX6apchVkBPKnQeobXQoh8uNsRLV`;
+
+    fetch("https://api.nasa.gov/planetary/apod?api_key=f3TvdRxWaet7RX6apchVkBPKnQeobXQoh8uNsRLV")
+      //
       .then((response) => response.json())
       .then((data) => {
         setExplanation(data.explanation);
@@ -24,9 +27,10 @@ function App() {
 
   return (
     <div className="App">
-      <img alt="Nasa apod" width="100%" src={url} />
       <h1>{title}</h1>
       <h4>{day}</h4>
+      <img alt="Nasa apod" width="100%" src={url} />
+
       <p>{explanation}</p>
       <footer>2022 coded by Heudiini</footer>
     </div>

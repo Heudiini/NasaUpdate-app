@@ -16,3 +16,8 @@ img {
   max-width: 400px;
   padding: 20px;
 }
+footer {
+  margin-top: 100px;
+  color: rgb(65, 98, 128);
+  font-size: small;
+}
