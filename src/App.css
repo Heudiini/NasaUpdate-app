@@ -1,14 +1,18 @@
 body {
   text-align: center;
-  background-color: #282c34;
 
-  display: flex;
+  background-color: #282c34;
+}
+.App {
+  margin: auto;
   flex-direction: column;
 
   font-size: normal;
   color: white;
-  padding: 15%;
+  padding: 20px;
+  max-width: 800px;
 }
 img {
-  margin: 30px;
+  max-width: 600px;
+  padding: 20px;
 }
