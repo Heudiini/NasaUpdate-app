@@ -8,8 +8,6 @@ function App() {
   const [title, setTitle] = useState("");
   const [isReady, setReady] = useState(false);
   useEffect(() => {
-    const apiKey = `f3TvdRxWaet7RX6apchVkBPKnQeobXQoh8uNsRLV`;
-
     fetch("https://api.nasa.gov/planetary/apod?api_key=f3TvdRxWaet7RX6apchVkBPKnQeobXQoh8uNsRLV")
       //
       .then((response) => response.json())
