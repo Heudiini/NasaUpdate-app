@@ -28,6 +28,7 @@ function App() {
       <h1>{title}</h1>
       <h4>{day}</h4>
       <p>{explanation}</p>
+      <footer>2022 coded by Heudiini</footer>
     </div>
   );
 }
