@@ -27,9 +27,11 @@ function App() {
     <div className="App">
       <h1>{title}</h1>
       <h4>{day}</h4>
-      <img alt="Nasa apod" width="100%" src={url} />
+      <div className="picDiv">
+        <img alt="Nasa apod" width="100%" src={url} />
+      </div>
 
-      <p>{explanation}</p>
+      <p className="p">{explanation}</p>
       <footer>2022 coded by Heudiini</footer>
     </div>
   );

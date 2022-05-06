@@ -1,23 +1,33 @@
 body {
   text-align: center;
-
+  margin: auto;
   background-color: #282c34;
 }
+h1 {
+  padding-top: 25px;
+}
 .App {
-  margin: auto;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 20px 10px 40px 10px;
   flex-direction: column;
 
   font-size: normal;
   color: white;
-  padding: 0 20px 20px 20px;
-  max-width: 700px;
+
+  border-radius: 15px;
 }
-img {
-  max-width: 400px;
-  padding: 20px;
+p {
+  border: 2px solid white;
+  border-radius: 15px;
+  text-align: left;
+  padding: 25px;
+}
+.picDiv {
+  padding: 25px;
 }
 footer {
   margin-top: 100px;
-  color: rgb(65, 98, 128);
+  color: rgb(90, 115, 138);
   font-size: small;
 }
